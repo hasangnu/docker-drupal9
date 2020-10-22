@@ -1,4 +1,4 @@
-´´´yalm
+```yalm
 version: '3.3'
 services:
   drupal:
@@ -12,7 +12,7 @@ services:
       - ./local/data:/var/lib/mysql
       - ./local:/var/www/html
     restart: always
-´´´
-´´´
+```
+```
 docker-compose up -d
-´´´
+```
